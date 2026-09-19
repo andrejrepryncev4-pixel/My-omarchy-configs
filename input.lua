@@ -10,7 +10,7 @@ hl.config({
     input = {
         -- Use multiple keyboard layouts and switch between them with Left Alt + Right Alt.
         kb_layout = "us,ru",
-        kb_options = "grp:alts_toggle",
+        kb_options = "grp:ctrl_alt_toggle",
     }
 })
 
