@@ -22,7 +22,7 @@
 --     -- Dim unfocused windows (0.0 = no dim, 1.0 = fully dimmed).
 --     dim_inactive = true,
 --     dim_strength = 0.15,
---     hl.window_rule({ match = { class = "foot" }, opacity = { 0.75, 0.75 } })
+     hl.window_rule({ match = { class = "foot" }, opacity = "0.75 0.75" })
 --   },
 -- })
 
@@ -49,3 +49,14 @@
 --     column_width = 0.97,
 --   },
 -- })
+--
+hl.env("LANG", "en_US.UTF-8")
+
+hl.env("LC_CTYPE", "ru_RU.UTF-8")
+
+hl.config({
+    xwayland = {
+        force_zero_scaling = true,
+    },
+})
+
