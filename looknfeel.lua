@@ -50,10 +50,6 @@
 --   },
 -- })
 --
-hl.env("LANG", "en_US.UTF-8")
-
-hl.env("LC_CTYPE", "ru_RU.UTF-8")
-
 hl.config({
     xwayland = {
         force_zero_scaling = true,
